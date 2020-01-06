@@ -38,7 +38,7 @@ This project is for exploring the idea of prototyping design pattern
 
 * This avoids boiler plate code making the change more readable.
 
-* For this we can implement cloneable interface and over clone with deep copy, we can create copy constructors which actually copies and creates a new object using the prototype
+* For this we can implement cloneable interface and override clone with deep copy, we can create copy constructors which actually copies and creates a new object using the prototype
 
 * Simple way is use serialization which will do a deep clone by default and solves boiler plate code in application.
 
