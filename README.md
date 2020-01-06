@@ -32,16 +32,16 @@ This project is for exploring the idea of prototyping design pattern
 
 * This is a creation pattern
 
-* Generally in manufacturing consider if your are creating cars mostly they are made of similar prototype only external design and finishing changes as per the model.
+* Generally in manufacturing , consider if your are creating cars mostly they are made of a common prototype only external design and finishing changes as per the model.
 
-* Similarly , if a huge object is to be recreated only with a minimal change in data it's better to use prototyping where you just clone the prototype object AS-IS and do the change required on the object.
+* Similarly , if a huge object is to be recreated only with a minimal change in data it's better to use prototyping where you just clone the prototype object and do the change required on the object.
 
-* This avoids boiler plate code making the code maintainable.
+* This avoids boiler plate code making the change more readable.
 
-* For this we can implement cloneable interface , we can create copy constructors which actually copies and creates a new object using the prototype
+* For this we can implement cloneable interface and over clone with deep copy, we can create copy constructors which actually copies and creates a new object using the prototype
 
-* Simple way is use serialization which do a deep clone by default and solves boiler plate code in application.
+* Simple way is use serialization which will do a deep clone by default and solves boiler plate code in application.
 
 **Important**
 
-* Java soon thinking to remove serialization due to insecure deserialization categorised as one of the top 10 OWASP vulnerabilities , how ever it's one of the alternative in this model.
+* Java soon thinking to remove serialization due to insecure deserialization which is categorised as one of the top 10 OWASP vulnerabilities , how ever it's one of the alternative in this model.
