@@ -14,11 +14,11 @@ This project explains the concept of faceted Builder for piece wise object const
 
 **2)Abstract Factory**
 
-This project to explore the Factory pattern for whole sale creation of the objects
+This project is for exploring the Factory pattern for whole sale creation of the objects
 
 **Take Away:**
 
-* This is pattern is mostly used as Factory Method i.e; Exposing a static method for object creation as constructors can be separated for same type in java by privatising the scope of constructor.
+* This pattern is mostly used as Factory Method i.e; Exposing a static method for object creation as constructors can not be separated for same type and different variables in java by privatising the scope of constructor.
 
 * Factory class is an extraction of factory methods
 
